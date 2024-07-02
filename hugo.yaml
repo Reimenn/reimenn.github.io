@@ -1,0 +1,5 @@
+baseURL: 'https://example.org/'
+defaultContentLanguage : 'zh'
+title: 'Rika Blog'
+theme: ['PaperMod']
+publishDir: docs

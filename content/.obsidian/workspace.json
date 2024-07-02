@@ -1,0 +1,155 @@
+{
+  "main": {
+    "id": "eb23537aa42c761e",
+    "type": "split",
+    "children": [
+      {
+        "id": "210fd5a904042e4f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8a3d259215d74036",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "post/URP实现屏幕空间外描边.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a12667c44057277d",
+    "type": "split",
+    "children": [
+      {
+        "id": "049bb43d5c311b05",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4666af184dbc61a4",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "cb8471306ed6acff",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "59f35e9d388f21a3",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "394e494ca4120c6d",
+    "type": "split",
+    "children": [
+      {
+        "id": "e18c67d6a2b3e1f4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "33fd35b1a97278b3",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "post/URP实现屏幕空间外描边.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "ab8b6d9581612507",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "post/URP实现屏幕空间外描边.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "a2d4eb443905ea8f",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "c0c1ec15cb6c8b7d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "post/URP实现屏幕空间外描边.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "8a3d259215d74036",
+  "lastOpenFiles": [
+    "2024-07-02.md",
+    "post/URP实现屏幕空间外描边.md",
+    "_index.md"
+  ]
+}

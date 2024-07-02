@@ -1,0 +1,27 @@
+.post-content blockquote.admonish-obsidian-style{
+    padding: 0;
+    /* background-color: var(--tertiary); */
+    border-top: solid 1px var(--border);
+    border-right: solid 1px var(--border);
+    border-bottom: solid 1px var(--border);
+    border-radius: 0 var(--radius) var(--radius) 0;
+    overflow: hidden;
+}
+.post-content blockquote.admonish-obsidian-style .title{
+    padding: .5em 1em;
+    background-color: var(--border);
+    font-weight: bold;
+    margin: 0;
+}
+
+.post-content blockquote.admonish-obsidian-style .title .icon{
+    opacity: .6;
+    font-size: .8em;
+}
+
+.post-content blockquote.admonish-obsidian-style .body{
+    padding: .5em 1em;
+}
+.post-content blockquote.admonish-obsidian-style .body > p{
+    margin: 0;
+}

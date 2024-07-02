@@ -1,0 +1,10 @@
+{
+  "strictLineBreaks": true,
+  "foldIndent": false,
+  "foldHeading": false,
+  "spellcheck": false,
+  "useMarkdownLinks": true,
+  "newLinkFormat": "relative",
+  "alwaysUpdateLinks": true,
+  "attachmentFolderPath": "./assets"
+}

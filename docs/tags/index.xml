@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tags on Rika Blog</title>
+    <link>https://example.org/tags/</link>
+    <description>Recent content in Tags on Rika Blog</description>
+    <generator>Hugo -- 0.128.0</generator>
+    <language>zh</language>
+    <lastBuildDate>Tue, 02 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://example.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Unity</title>
+      <link>https://example.org/tags/unity/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/tags/unity/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Urp</title>
+      <link>https://example.org/tags/urp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/tags/urp/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
