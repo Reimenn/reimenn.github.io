@@ -2,24 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://example.org/</loc>
+    <loc>https://reimenn.github.io/</loc>
     <lastmod>2024-07-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/post/</loc>
+    <loc>https://reimenn.github.io/post/</loc>
     <lastmod>2024-07-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/tags/</loc>
+    <loc>https://reimenn.github.io/tags/</loc>
     <lastmod>2024-07-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/tags/unity/</loc>
+    <loc>https://reimenn.github.io/tags/unity/</loc>
     <lastmod>2024-07-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/tags/urp/</loc>
+    <loc>https://reimenn.github.io/tags/urp/</loc>
     <lastmod>2024-07-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/post/urp%E5%AE%9E%E7%8E%B0%E5%B1%8F%E5%B9%95%E7%A9%BA%E9%97%B4%E5%A4%96%E6%8F%8F%E8%BE%B9/</loc>
+    <loc>https://reimenn.github.io/post/urp%E5%AE%9E%E7%8E%B0%E5%B1%8F%E5%B9%95%E7%A9%BA%E9%97%B4%E5%A4%96%E6%8F%8F%E8%BE%B9/</loc>
     <lastmod>2024-07-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/categories/</loc>
+    <loc>https://reimenn.github.io/categories/</loc>
   </url>
 </urlset>
