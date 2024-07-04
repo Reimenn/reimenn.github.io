@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "post/URP实现屏幕空间外描边.md",
+                "file": "post/URP 实现屏幕空间外描边.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "post/URP实现屏幕空间外描边.md",
+                "file": "post/URP 实现屏幕空间外描边.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "post/URP实现屏幕空间外描边.md",
+                "file": "post/URP 实现屏幕空间外描边.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "post/URP实现屏幕空间外描边.md"
+                "file": "post/URP 实现屏幕空间外描边.md"
               }
             }
           }
@@ -146,10 +146,11 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "8a3d259215d74036",
+  "active": "4666af184dbc61a4",
   "lastOpenFiles": [
-    "2024-07-02.md",
-    "post/URP实现屏幕空间外描边.md",
-    "_index.md"
+    "post/assets",
+    "_index.md",
+    "post/URP 实现屏幕空间外描边.md",
+    "2024-07-02.md"
   ]
 }
