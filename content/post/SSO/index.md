@@ -1,7 +1,7 @@
 ---
 title: URP 实现屏幕空间外描边
 date: 2024-07-02
-draft = true
+draft: true
 ShowToc: true
 tags:
   - urp
