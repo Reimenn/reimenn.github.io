@@ -2,7 +2,6 @@ baseURL: 'https://reimenn.github.io/'
 defaultContentLanguage : 'zh'
 title: 'Rika Blog'
 theme: ['PaperMod']
-# publishDir: docs
 
 params:
     assets:
