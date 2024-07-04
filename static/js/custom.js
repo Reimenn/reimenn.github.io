@@ -36,3 +36,12 @@ blockquote.forEach(block => {
     block.append(newTitle)
     block.append(div)
 })
+
+const titleImgs = document.querySelectorAll("div.post-content img[src*='#title']")
+titleImgs.forEach(img => {
+    const alt = img.getAttribute("alt")
+    const p = document.createElement('p')
+    p.classList.add("img-title")
+    p.innerText = alt
+    img.parentElement.appendChild(p)
+})

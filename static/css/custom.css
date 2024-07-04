@@ -1,12 +1,12 @@
 .post-content blockquote.admonish-obsidian-style{
     padding: 0;
-    /* background-color: var(--tertiary); */
     border-top: solid 1px var(--border);
     border-right: solid 1px var(--border);
     border-bottom: solid 1px var(--border);
     border-radius: 0 var(--radius) var(--radius) 0;
     overflow: hidden;
 }
+
 .post-content blockquote.admonish-obsidian-style .title{
     padding: .5em 1em;
     background-color: var(--border);
@@ -24,4 +24,23 @@
 }
 .post-content blockquote.admonish-obsidian-style .body > p{
     margin: 0;
+}
+
+.post-content img[src*="#f"] ~ p,
+.post-content img[src*="#center"] ~ p{
+    text-align: center;
+    opacity: .7;
+}
+
+.post-content img[src*="#f"] {
+    width: 100%;
+}
+.post-content img[src*="#s"] {
+    max-height: 10em;
+}
+.post-content img[src*="#m"] {
+    max-height: 20em;
+}
+.post-content img[src*="#b"] {
+    max-height: 30em;
 }

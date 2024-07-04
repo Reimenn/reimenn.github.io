@@ -1,0 +1,19 @@
+div.internal-embed.media-embed.image-embed[src*="#f"] img {
+    width: 100%;
+}
+
+div.internal-embed.media-embed.image-embed[src*="#s"] img {
+    max-height: 10em;
+}
+
+div.internal-embed.media-embed.image-embed[src*="#m"] img {
+    max-height: 20em;
+}
+
+div.internal-embed.media-embed.image-embed[src*="#b"] img {
+    max-height: 30em;
+}
+
+div.internal-embed.media-embed.image-embed[src*="#center"] {
+    text-align: center;
+}
