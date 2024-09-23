@@ -36,7 +36,7 @@ keywords:
 
 2. 对这张黑白纹理计算描边
 
-3. 将描边结果转换成某种颜色，最终叠加到我们的屏幕上
+3. 最终将描边叠加到屏幕上
 
 ![描边步骤图示](assets/outline-step.png#title)
 
@@ -81,7 +81,7 @@ public class SSOutline : ScriptableRendererFeature
 {
     private Pass pass;
 
-    // 在这个 Create 方法中进行初始化工作，现在在这里创建 RenderPass
+    // 在 Create 方法中进行初始化工作，例如创建 RenderPass
     public override void Create()
     {
         pass = new Pass();
@@ -145,5 +145,31 @@ private readonly Material whiteObjectMaterial = new(Shader.Find("Shader Graphs/W
 接下来准备绘制这张图了，修改 `Execute` 方法：
 
 ```csharp
+// 这个if不加也行，但是console总是报错看着很烦
+if (renderingData.cameraData.renderer.cameraColorTargetHandle.rt == null ||
+    objectTexture.rt == null)
+    return;
 
+// 准备对整个场景进行一次额外的渲染
+var settings = CreateDrawingSettings(
+    new ShaderTagId("UniversalForward"),
+    ref renderingData,
+    renderingData.cameraData.defaultOpaqueSortFlags);
+// 用纯白材质球渲染场景中的网格，覆盖网格本身的材质
+settings.overrideMaterial = whiteObjectMaterial;
+
+// 这次额外渲染的参数，RendererListParams 构造方法的第三个参数指定了只选染 Outline 层
+var rendererListParams = new RendererListParams(
+    renderingData.cullResults,
+    settings,
+    new FilteringSettings(layerMask: LayerMask.GetMask("Outline")));
+var rendererList = context.CreateRendererList(ref rendererListParams);
+
+// 准备执行渲染
+var cmd = CommandBufferPool.Get("Outline_CMD");
+cmd.DrawRendererList(rendererList);
+// 将渲染结果存入shader的全局变量
+cmd.SetGlobalTexture("_Outline_Background", objectTexture);
+context.ExecuteCommandBuffer(cmd);
+cmd.Release();
 ```

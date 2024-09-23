@@ -26,10 +26,9 @@
     margin: 0;
 }
 
-.post-content img[src*="#f"] ~ p,
-.post-content img[src*="#center"] ~ p{
-    text-align: center;
+.post-content img[src*="#title"] ~ p {
     opacity: .7;
+    text-align: center;
 }
 
 .post-content img[src*="#f"] {
